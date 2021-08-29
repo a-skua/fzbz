@@ -2,14 +2,18 @@
 
 This is `FizzBuzz` generator.
 
-## usage
+## install
+```sh
+go install github.com/a-skua/fzbz/cmd/fzbz
+```
 
+## usage
 ```sh
 fzbz -t 'print("{}")' > fzbz.py
 python fzbz.py
 ```
 
-## install
+## help
 ```sh
-go install github.com/a-skua/fzbz
+fzbz -h
 ```
