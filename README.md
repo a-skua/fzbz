@@ -4,7 +4,7 @@ This is `FizzBuzz` generator.
 
 ## install
 ```sh
-go install github.com/a-skua/fzbz/cmd/fzbz
+go install github.com/a-skua/fzbz/cmd/fzbz@laest
 ```
 
 ## usage

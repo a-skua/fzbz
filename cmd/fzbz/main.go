@@ -1,3 +1,17 @@
+// Install:
+//
+//	go install github.com/a-skua/fzbz/cmd/fzbz@latest
+//
+// Usage:
+//
+//	fzbz -t 'print("puts \"{}\"")' | python3 | ruby
+//
+// Flags:
+//
+//	-t
+//	  default: "{}"
+//	-n
+//	  default: 15
 package main
 
 import (
